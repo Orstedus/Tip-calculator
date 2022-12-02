@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap');
+
+.base {
+    background-color: transparent;
+    position:relative;
+}
+
+.inputDollar {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-dollar.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position:2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: rgb(0, 71, 75);
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+}
+
+.inputDollar:focus {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-dollar.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: rgb(0, 71, 75);
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    outline: 2px rgb(38, 194, 173) solid;
+    padding: 10px;
+}
+
+.inputHuman {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-person.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: rgb(0, 71, 75);
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+}
+
+.inputHuman:focus {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-person.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: rgb(0, 71, 75);
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    outline: 2px rgb(38, 194, 173) solid;
+    padding: 10px;
+
+}
+
+.inputDollarError {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-dollar.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #b47c6d;
+    outline: 2px #b47c6d solid;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.inputHumanError {
+    border: 0px;
+    width: 95%;
+    height: 25px;
+    border-radius: 7.5px;
+    background-image: url(../images/icon-person.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color: #b47c6d;
+    outline: 2px #b47c6d solid;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+}
+
+.title {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color:rgb(83, 83, 83);
+    background-color: #ffffff;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.errorTitle {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color:#b47c6d;
+    background-color: #ffffff;
+    font-size: 12.5px; 
+    display: inline-block;
+    margin-left: 0;
+    position:absolute;
+    right: 0;
+}

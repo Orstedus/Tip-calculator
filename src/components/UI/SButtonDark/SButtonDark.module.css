@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap');
+
+.SButton {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    width: 75px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgb(38, 194, 173);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    border:0;
+    border-radius: 7.5px;
+    color:rgb(0, 71, 75);
+    font-size: 15px;
+    margin-left:32.5%;
+    cursor: pointer;
+
+}
+
+.SButton:active {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    width: 75px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgb(32, 153, 137);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    border:0;
+    border-radius: 7.5px;
+    color:rgb(0, 71, 75);
+    font-size: 15px;
+    margin-left:32.5%;
+    margin-top: 40px;
+}

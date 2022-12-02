@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap');
+
+.resTitle {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color:white;
+    background-color: transparent;
+    font-size: 100%;
+    
+}
+
+.resDisc {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color:rgb(121, 121, 121);
+    background-color: transparent;
+    font-size: 75%;
+}
+
+.bigRes {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    color:rgb(36, 194, 175);
+    background-color: transparent;
+    font-size: 200%;
+}
+
+.plate1 {
+    display: inline-block;
+    background-color: transparent;
+}
+
+.plate2 {
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    margin-bottom: 50%;
+}
+
+.base {
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position:relative;
+    margin-top: 25px;
+}
